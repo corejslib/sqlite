@@ -1,6 +1,6 @@
 {
     "name": "@c0rejs/sqlite",
-    "version": "1.28.23",
+    "version": "1.28.24",
     "description": "better-sqlite3 re-packed",
     "homepage": "https://c0rejs.github.io/sqlite/",
     "bugs": {
