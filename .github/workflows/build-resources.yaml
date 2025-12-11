@@ -17,7 +17,6 @@ jobs:
         shell: bash
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     strategy:
       matrix:
         node-version: [lts/*, latest]
@@ -32,6 +31,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           architecture: ${{ matrix.architecture }}
           check-latest: true
+      - uses: softvisio/actions/setup-npm@main
       - run: |
           cd build
           npm install --ignore-scripts
