@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.28.33 (2026-01-03)
+
+**Bug fixes:**
+
+- \[PATCH] fix: update actions version (● [4b047c3](https://github.com/c0rejs/sqlite/commit/4b047c3); 👬 zdm)
+
+Compare with the previous release: [v1.28.32](https://github.com/c0rejs/sqlite/compare/v1.28.32...v1.28.33)
+
 ### v1.28.32 (2026-01-03)
 
 **Bug fixes:**
