@@ -21,12 +21,12 @@ jobs:
     name: build on ${{ matrix.os }} ${{ matrix.architecture }} node ${{ matrix.node-version }}
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: softvisio/actions/setup-node@v1
+      - uses: softvisio/actions/setup-node@latest
         with:
           node-version: ${{ matrix.node-version }}
           architecture: ${{ matrix.architecture }}
 
-      - uses: softvisio/actions/checkout@v1
+      - uses: softvisio/actions/checkout@latest
 
       - run: |
           cd build
