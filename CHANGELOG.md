@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.28.31 (2026-01-03)
+
+**Other changes:**
+
+- build: update workflow actions (● [79cc849](https://github.com/c0rejs/sqlite/commit/79cc849); 👬 zdm)
+
+Compare with the previous release: [v1.28.30](https://github.com/c0rejs/sqlite/compare/v1.28.30...v1.28.31)
+
 ### v1.28.30 (2025-12-11)
 
 **Other changes:**
