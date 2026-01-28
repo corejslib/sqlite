@@ -1,4 +1,9 @@
 version: 2
+registries:
+  npm.pkg.github.com:
+    type: npm-registry
+    url: https://npm.pkg.github.com
+    token: ${{secrets.DEPENDABOT_GITHUB_TOKEN}}
 updates:
   - package-ecosystem: github-actions
     directories:
@@ -10,6 +15,7 @@ updates:
       timezone: UTC
     open-pull-requests-limit: 5
   - package-ecosystem: npm
+    registries: "*"
     directories:
       - /
       - /build
