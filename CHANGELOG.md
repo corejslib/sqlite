@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.28.39 (2026-01-28)
+
+**Other changes:**
+
+- chore(metadata): update package metadata (● [7b7b0d0](https://github.com/c0rejs/sqlite/commit/7b7b0d0); 👬 zdm)
+
+Compare with the previous release: [v1.28.38](https://github.com/c0rejs/sqlite/compare/v1.28.38...v1.28.39)
+
 ### v1.28.38 (2026-01-27)
 
 **Bug fixes:**
