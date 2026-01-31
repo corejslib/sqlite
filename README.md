@@ -1,6 +1,6 @@
 <!-- !!! DO NOT EDIT, THIS FILE IS GENERATED AUTOMATICALLY !!!  -->
 
-> ℹ️ Please, see the full project documentation here:<br><https://c0rejs.github.io/sqlite/>
+> ℹ️ Please, see the full project documentation here:<br><https://corejslib.github.io/sqlite/>
 
 # Introduction
 
@@ -12,5 +12,5 @@ Repacked version of [better-sqlite3](https://github.com/JoshuaWise/better-sqlite
 ## Install
 
 ```sh
-npm install @c0rejs/sqlite
+npm install @corejslib/sqlite
 ```

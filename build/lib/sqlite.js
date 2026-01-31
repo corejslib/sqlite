@@ -27,7 +27,7 @@ export default class ExternalResource extends ExternalResourceBuilder {
 
     constructor ( cwd ) {
         super( {
-            "id": "c0rejs/sqlite",
+            "id": "corejslib/sqlite",
             "node": true,
             "caller": import.meta.url,
         } );

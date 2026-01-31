@@ -1,29 +1,29 @@
 {
-    "name": "@c0rejs/sqlite-build",
+    "name": "@corejslib/sqlite-build",
     "version": "1.28.40",
     "private": true,
-    "homepage": "https://c0rejs.github.io/sqlite/",
+    "homepage": "https://corejslib.github.io/sqlite/",
     "bugs": {
-        "url": "https://github.com/c0rejs/sqlite/issues",
+        "url": "https://github.com/corejslib/sqlite/issues",
         "email": "root <root@softvisio.net>"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/c0rejs/sqlite.git",
+        "url": "git+https://github.com/corejslib/sqlite.git",
         "directory": "build"
     },
     "license": "Proprietary Software",
     "author": "root <root@softvisio.net>",
     "type": "module",
     "imports": {
-        "#core/*": "@c0rejs/core/*",
+        "#core/*": "@corejslib/core/*",
         "#lib/*": "./lib/*.js"
     },
     "scripts": {
         "build": "node bin/build.js"
     },
     "dependencies": {
-        "@c0rejs/core": "^7.83.13",
+        "@corejslib/core": "^7.83.13",
         "better-sqlite3": "12.6.2"
     }
 }

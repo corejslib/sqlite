@@ -1,15 +1,15 @@
 {
-    "name": "@c0rejs/sqlite",
+    "name": "@corejslib/sqlite",
     "version": "1.28.40",
     "description": "better-sqlite3 re-packed",
-    "homepage": "https://c0rejs.github.io/sqlite/",
+    "homepage": "https://corejslib.github.io/sqlite/",
     "bugs": {
-        "url": "https://github.com/c0rejs/sqlite/issues",
+        "url": "https://github.com/corejslib/sqlite/issues",
         "email": "root <root@softvisio.net>"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/c0rejs/sqlite.git"
+        "url": "git+https://github.com/corejslib/sqlite.git"
     },
     "license": "ISC",
     "author": "root <root@softvisio.net>",
@@ -30,6 +30,6 @@
         "install": "node bin/install.mjs"
     },
     "peerDependencies": {
-        "@c0rejs/utils": "^2.0.0"
+        "@corejslib/utils": "^2.0.0"
     }
 }
