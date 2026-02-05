@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.28.42 (2026-02-05)
+
+**Other changes:**
+
+- chore: remove @zdm npm registry (● [1c7e365](https://github.com/corejslib/sqlite/commit/1c7e365); 👬 zdm)
+
+Compare with the previous release: [v1.28.41](https://github.com/corejslib/sqlite/compare/v1.28.41...v1.28.42)
+
 ### v1.28.41 (2026-01-31)
 
 **Other changes:**
