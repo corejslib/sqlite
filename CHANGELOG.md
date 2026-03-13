@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.28.45 (2026-03-13)
+
+**Other changes:**
+
+- build(deps): bump sqlite\@3.51.3 (● [d7ccfd4](https://github.com/corejslib/sqlite/commit/d7ccfd4); 👬 zdm)
+
+Compare with the previous release: [v1.28.44](https://github.com/corejslib/sqlite/compare/v1.28.44...v1.28.45)
+
 ### v1.28.44 (2026-03-10)
 
 **Other changes:**

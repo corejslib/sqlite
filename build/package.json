@@ -1,6 +1,6 @@
 {
     "name": "@corejslib/sqlite-build",
-    "version": "1.28.44",
+    "version": "1.28.45",
     "private": true,
     "homepage": "https://corejslib.github.io/sqlite/",
     "bugs": {
