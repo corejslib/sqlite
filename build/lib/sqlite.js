@@ -7,17 +7,8 @@ import fetch from "#core/fetch";
 import { glob } from "#core/glob";
 import Zip from "#core/zip";
 
-const USE_LATEST_SQLITE = true,
-    SQLITE_DOMAIN = "www3.sqlite.org",
-    SQLITE_VERSION = "3.52.0",
-    SQLITE_YEAR = new Date().getFullYear(),
-    SQLITE_PRODUCT_VERSION =
-        SQLITE_VERSION.split( "." )
-            .map( ( label, idx ) => ( !idx
-                ? label
-                : label.padStart( 2, "0" ) ) )
-            .join( "" ) + "00",
-    SQLITE_URL = `https://${ SQLITE_DOMAIN }/${ SQLITE_YEAR }/sqlite-amalgamation-${ SQLITE_PRODUCT_VERSION }.zip`;
+const SQLITE_VERSION = "3.51.3", // NODE: set to null to use latest available SQLite version
+    SQLITE_DOMAIN = "www3.sqlite.org";
 
 export default class ExternalResource extends ExternalResourceBuilder {
     #cwd;
@@ -87,19 +78,25 @@ export default class ExternalResource extends ExternalResourceBuilder {
 
     // private
     async #getSqliteVersion () {
-        if ( !USE_LATEST_SQLITE ) {
+        if ( SQLITE_VERSION ) {
+            const sqliteYear = new Date().getFullYear(),
+                sqliteProductVersion =
+                    SQLITE_VERSION.split( "." )
+                        .map( ( label, idx ) => ( !idx
+                            ? label
+                            : label.padStart( 2, "0" ) ) )
+                        .join( "" ) + "00";
+
             this.#sqliteVersion = "v" + SQLITE_VERSION;
 
-            this.#sqliteUrl = SQLITE_URL;
+            this.#sqliteUrl = `https://${ SQLITE_DOMAIN }/${ sqliteYear }/sqlite-amalgamation-${ sqliteProductVersion }.zip`;
         }
         else {
             const res = await fetch( `https://${ SQLITE_DOMAIN }/download.html` );
-
             if ( !res.ok ) return result( [ res.status, "Get version error: " + res.statusTexsd ] );
 
-            const html = await res.text();
-
-            const match = html.match( /(\d{4}\/sqlite-amalgamation-(3\d{6}).zip)/ );
+            const html = await res.text(),
+                match = html.match( /(\d{4}\/sqlite-amalgamation-(3\d{6}).zip)/ );
 
             this.#sqliteVersion =
                 "v" +
