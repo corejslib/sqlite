@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.28.46 (2026-03-14)
+
+**Other changes:**
+
+- build(deps): bunp better-sqlite3\@12.8.0 (● [2a021e5](https://github.com/corejslib/sqlite/commit/2a021e5); 👬 zdm)
+
+Compare with the previous release: [v1.28.45](https://github.com/corejslib/sqlite/compare/v1.28.45...v1.28.46)
+
 ### v1.28.45 (2026-03-13)
 
 **Other changes:**
