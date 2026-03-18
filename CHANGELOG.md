@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.28.47 (2026-03-18)
+
+**Other changes:**
+
+- chore(metadata): update package metadata (● [1b0faee](https://github.com/corejslib/sqlite/commit/1b0faee); 👬 zdm)
+
+Compare with the previous release: [v1.28.46](https://github.com/corejslib/sqlite/compare/v1.28.46...v1.28.47)
+
 ### v1.28.46 (2026-03-14)
 
 **Other changes:**
