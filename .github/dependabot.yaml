@@ -13,13 +13,3 @@ updates:
       cronjob: 0 0 * * *
       timezone: UTC
     open-pull-requests-limit: 5
-  - package-ecosystem: npm
-    registries: "*"
-    directories:
-      - /
-      - /build
-    schedule:
-      interval: cron
-      cronjob: 0 0 * * 1
-      timezone: UTC
-    open-pull-requests-limit: 5
