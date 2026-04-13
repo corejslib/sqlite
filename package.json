@@ -1,6 +1,6 @@
 {
     "name": "@corejslib/sqlite",
-    "version": "1.28.48",
+    "version": "1.28.49",
     "description": "better-sqlite3 re-packed",
     "homepage": "https://corejslib.github.io/sqlite/",
     "bugs": {
