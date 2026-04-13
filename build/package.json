@@ -24,6 +24,6 @@
     },
     "dependencies": {
         "@corejslib/core": "^7.83.13",
-        "better-sqlite3": "12.8.0"
+        "better-sqlite3": "12.9.0"
     }
 }
