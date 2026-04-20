@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.28.50 (2026-04-20)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update .editorconfig (● [eb4cf3b](https://github.com/corejslib/sqlite/commit/eb4cf3b); 👬 zdm)
+
+Compare with the previous release: [v1.28.49...v1.28.50](https://github.com/corejslib/sqlite/compare/v1.28.49...v1.28.50)
+
 ### v1.28.49 (2026-04-13)
 
 **Other changes:**
