@@ -7,7 +7,7 @@ import fetch from "#core/fetch";
 import { glob } from "#core/glob";
 import Zip from "#core/zip";
 
-const SQLITE_VERSION = "3.53.0", // NOTE: set to null to use latest available SQLite version
+const SQLITE_VERSION = "3.53.1", // NOTE: set to null to use latest available SQLite version
     SQLITE_DOMAIN = "www3.sqlite.org";
 
 export default class ExternalResource extends ExternalResourceBuilder {
