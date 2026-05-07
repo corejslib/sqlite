@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.28.52 (2026-05-07)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename cli.config.yaml to scli.config.yaml (● [102e061](https://github.com/corejslib/sqlite/commit/102e061); 👬 zdm)
+
+Compare with the previous release: [v1.28.51...v1.28.52](https://github.com/corejslib/sqlite/compare/v1.28.51...v1.28.52)
+
 ### v1.28.51 (2026-05-05)
 
 **Other changes:**
