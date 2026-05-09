@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.28.53 (2026-05-09)
+
+**Other changes:**
+
+- style: lint (● [ac60f39](https://github.com/corejslib/sqlite/commit/ac60f39); 👬 zdm)
+
+Compare with the previous release: [v1.28.52...v1.28.53](https://github.com/corejslib/sqlite/compare/v1.28.52...v1.28.53)
+
 ### v1.28.52 (2026-05-07)
 
 **Code refactoring:**
