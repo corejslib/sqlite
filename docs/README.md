@@ -1,3 +1,5 @@
+> This package is deprecated and is not supported. Use `node:sqlite` instead.
+
 # Introduction
 
 Repacked version of [better-sqlite3](https://github.com/JoshuaWise/better-sqlite3):
