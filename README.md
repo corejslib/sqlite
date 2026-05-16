@@ -2,9 +2,10 @@
 
 > ℹ️ Please, see the full project documentation here:<br><https://corejslib.github.io/sqlite/>
 
-> This package is deprecated and is not supported. Use `node:sqlite` instead.
-
 # Introduction
+
+> This package is deprecated and is not supported.
+> Use `node:sqlite` instead.
 
 Repacked version of [better-sqlite3](https://github.com/JoshuaWise/better-sqlite3):
 
