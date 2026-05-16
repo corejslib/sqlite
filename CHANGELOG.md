@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.28.55 (2026-05-16)
+
+**Other changes:**
+
+- docs: update (● [2d323be](https://github.com/corejslib/sqlite/commit/2d323be), [3556c59](https://github.com/corejslib/sqlite/commit/3556c59), [1469ab0](https://github.com/corejslib/sqlite/commit/1469ab0); 👬 zdm)
+
+- docs: update docs (● [9a27d7c](https://github.com/corejslib/sqlite/commit/9a27d7c); 👬 zdm)
+
+Compare with the previous release: [v1.28.54...v1.28.55](https://github.com/corejslib/sqlite/compare/v1.28.54...v1.28.55)
+
 ### v1.28.54 (2026-05-12)
 
 **Other changes:**
