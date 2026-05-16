@@ -3,10 +3,3 @@ release:
 
 subPackages:
   - /build
-
-docs:
-  location: /docs
-
-  externalTypes:
-    - corejslib/core
-    - corejslib/result

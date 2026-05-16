@@ -1,12 +1,7 @@
-<!-- !!! DO NOT EDIT, THIS FILE IS GENERATED AUTOMATICALLY !!!  -->
-
-> \[!NOTE]
-> Please, see the full project documentation here:<br><https://corejslib.github.io/sqlite/>
+> \[!WARNING]
+> This package is **DEPRECATED** and is not supported.<br>Use `node:sqlite` instead.
 
 # Introduction
-
-> \[!WARNING]
-> This package is deprecated and is not supported.<br>Use `node:sqlite` instead.
 
 Repacked version of [better-sqlite3](https://github.com/JoshuaWise/better-sqlite3):
 
